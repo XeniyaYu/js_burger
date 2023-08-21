@@ -1,6 +1,6 @@
 var hamb = document.querySelector('#hamb');
 var popup = document.querySelector('#popup');
-var menu = document.querySelector('#menu');
+var menu = document.querySelector('#menu').cloneNode(1);
 var body = document.body;
 
 hamb.addEventListener('click',hambHandler);

@@ -33,7 +33,7 @@ body {
     font-size: 30px;
     font-weight: bold;
 }
-.page {
+.main {
     background-color: antiquewhite;
     flex: 1 0 auto;
 }
