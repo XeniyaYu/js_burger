@@ -29,4 +29,3 @@ function closeOnClick() {
     body.classList.remove('noscroll');
 }
 
-console.log('start')
