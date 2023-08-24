@@ -63,6 +63,35 @@
             </div>
         </div>
     </main>
+    <div class="form__wrap">
+        <div class="form__title">Свяжитесь с нами</div>
+
+        <form action="./order.php" class="form form-order" method="POST">
+            <div class="form__list">
+                <fieldset class="form__item">
+                    <!-- <label for="" class="form__label">Введите имя</label> -->
+                    <input type="text" name="username" placeholder="Введите имя*" required minlength="2" maxlength="32" class="form__inp">
+                </fieldset>
+                <fieldset class="form__item">
+                    <!-- <label for="" class="form__label">Введите емайл</label> -->
+                    <input type="email" name="usermail" placeholder="Введите емайл*" required class="form__inp">
+                </fieldset>
+                <fieldset class="form__item">
+                    <!-- <label for="" class="form__label">Введите телефон</label> -->
+                    <input type="tel" name="userphone" placeholder="Введите телефон*" required pattern="^\+7[0-9]{10}$" class="form__inp">
+                </fieldset>
+                <fieldset class="form__item">
+                    <!-- <label for="" class="form__label">Введите телеграм</label> -->
+                    <input type="text" name="usertelegram" placeholder="Введите телеграм*" required class="form__inp">
+                </fieldset>
+
+                <fieldset class="form__item">
+                    <button class="form__btn">Отправить</button>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
 
     <footer class="footer">
         <div class="container">
